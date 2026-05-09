@@ -1,5 +1,5 @@
 ##  Live Site
-*(Vercel deployment link when live)*
+[Visit here!!](https://portfolio-sharmistha.vercel.app)
 
 ##  Built With
 - HTML, CSS, JavaScript
