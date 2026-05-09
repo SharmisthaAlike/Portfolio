@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alike Sharmistha - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-brand">
+                <span class="brand-text">Sharmistha Alike</span>
+            </div>
+            <button class="menu-toggle" id="menuToggle">
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Connect</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text fade-in">
+                <p class="greeting">Hello, I'm</p>
+                <h1 class="hero-title">Alike Sharmistha</h1>
+                <p class="hero-subtitle">CS undergrad | 5G Researcher | Cybersecurity Enthusiast | Agentic AI Developer
+                </p>
+                <div class="typing-container">
+                    <span class="typing-prefix">> </span><span id="typing-text"></span><span class="cursor">_</span>
+                </div>
+                <div class="hero-cta">
+                    <a href="#projects" class="cta-button primary-btn">View Projects <i
+                            data-lucide="arrow-right"></i></a>
+                    <a href="docs/Alike_Sharmistha_Resume.pdf" target="_blank" class="cta-button secondary-btn">Resume
+                        <i data-lucide="download"></i></a>
+                    <a href="#contact" class="cta-button secondary-btn">Let's Connect <i data-lucide="mail"></i></a>
+                </div>
+            </div>
+            <div class="hero-image fade-in">
+                <div class="profile-placeholder">
+                    <div class="glow-ring"></div>
+                    <img src="assets/profile.png" alt="Alike Sharmistha" class="profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-spacing">
+        <div class="container">
+            <div class="section-header fade-in-section">
+                <span class="section-kicker">01 // Discover</span>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text fade-in-section glass-card">
+                    <p>I am a Computer Science Engineering student at <strong>PES University (Batch of 2027)</strong>
+                        based in Bengaluru, India. I have a strong foundation in systems engineering, networking, and
+                        cybersecurity, with hands-on experience building fault-tolerant, scalable software systems.</p>
+                    <p>I am deeply interested in <strong>agentic AI, self-healing networks, cloud-native systems, and
+                            decentralized infrastructure</strong>. I've worked across distributed networking,
+                        blockchain-backed platforms, and applied ML, always focusing on reliability, performance, and
+                        real-world deployment.</p>
+                    <p>Currently, I am exploring adaptive systems, robotics, and game/simulation design as practical
+                        environments for real-time control and autonomous decision-making loops.</p>
+                </div>
+                <div class="about-highlights fade-in-section">
+                    <h3 class="highlight-title">Beyond Code</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-icon"><i data-lucide="briefcase"></i></div>
+                            <div class="timeline-content">
+                                <h4>Executive Director</h4>
+                                <p>PESU I/O</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-icon"><i data-lucide="graduation-cap"></i></div>
+                            <div class="timeline-content">
+                                <h4>Teaching Assistant</h4>
+                                <p>DDCO & CN @ PES University CSE Dept.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-icon"><i data-lucide="radio"></i></div>
+                            <div class="timeline-content">
+                                <h4>Research Intern</h4>
+                                <p>5G Lab, C-ISFCR</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-icon"><i data-lucide="award"></i></div>
+                            <div class="timeline-content">
+                                <h4>Hackathon Success</h4>
+                                <p>National Finalist @ SAP Hackfest 2025<br>Top 10 @ Trackshift 2025<br>Top 5 @
+                                    Terrathon 2.0 2024</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section-spacing">
+        <div class="container">
+            <div class="section-header fade-in-section">
+                <span class="section-kicker">02 // Expertise</span>
+                <h2 class="section-title">Tech Stack</h2>
+            </div>
+            <div class="skills-grid">
+
+                <div class="skill-category glass-card fade-in-section">
+                    <div class="category-header">
+                        <i data-lucide="code-2"></i>
+                        <h3>Languages</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span>Python</span><span>C</span><span>C++</span><span>JavaScript</span><span>Java</span><span>HTML5</span><span>Bash</span>
+                    </div>
+                </div>
+
+                <div class="skill-category glass-card fade-in-section">
+                    <div class="category-header">
+                        <i data-lucide="layout"></i>
+                        <h3>Frontend & Web</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span>React</span><span>Vite</span><span>Node.js</span><span>Express</span><span>Vercel</span>
+                    </div>
+                </div>
+
+                <div class="skill-category glass-card fade-in-section">
+                    <div class="category-header">
+                        <i data-lucide="database"></i>
+                        <h3>Databases</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span>PostgreSQL</span><span>MySQL</span><span>MongoDB</span><span>Redis</span>
+                    </div>
+                </div>
+
+                <div class="skill-category glass-card fade-in-section">
+                    <div class="category-header">
+                        <i data-lucide="cloud"></i>
+                        <h3>Cloud & DevOps</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span>AWS</span><span>Docker</span><span>Kubernetes</span><span>GitHub
+                            Actions</span><span>Git</span>
+                    </div>
+                </div>
+
+                <div class="skill-category glass-card fade-in-section">
+                    <div class="category-header">
+                        <i data-lucide="server"></i>
+                        <h3>Systems & Networking</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span>Linux</span><span>Cisco Packet Tracer</span><span>Open5GS</span><span>Wireshark</span>
+                    </div>
+                </div>
+
+                <div class="skill-category glass-card fade-in-section">
+                    <div class="category-header">
+                        <i data-lucide="shield-check"></i>
+                        <h3>Security & Blockchain</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span>Ethereum</span><span>IPFS</span><span>OpenSSL</span>
+                    </div>
+                </div>
+
+                <div class="skill-category glass-card fade-in-section">
+                    <div class="category-header">
+                        <i data-lucide="brain-circuit"></i>
+                        <h3>AI/ML & Agentic</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span>TensorFlow</span><span>scikit-learn</span>
+                    </div>
+                </div>
+
+                <div class="skill-category glass-card fade-in-section">
+                    <div class="category-header">
+                        <i data-lucide="box"></i>
+                        <h3>Simulation & Design</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span>Unity</span><span>Blender</span><span>Raspberry
+                            Pi</span><span>Arduino</span><span>Figma</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section-spacing">
+        <div class="container">
+            <div class="section-header fade-in-section">
+                <span class="section-kicker">03 // Work</span>
+                <h2 class="section-title">Projects</h2>
+            </div>
+            <div class="projects-grid">
+
+                <div class="project-card glass-card fade-in-section">
+                    <div class="project-content">
+                        <div class="project-top">
+                            <i data-lucide="folder-git-2" class="project-icon"></i>
+                            <a href="https://github.com/SharmisthaAlike/miniRAFT" target="_blank"
+                                class="external-link"><i data-lucide="external-link"></i></a>
+                        </div>
+                        <h3>miniRAFT</h3>
+                        <p>Distributed system implementing the RAFT consensus algorithm across multiple replicas.
+                            Features a real-time collaborative drawing board with leader election, fault tolerance, and
+                            a glassmorphic UI.</p>
+                        <div class="project-tags">
+                            <span>Distributed Systems</span><span>RAFT</span><span>Fault Tolerance</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card fade-in-section">
+                    <div class="project-content">
+                        <div class="project-top">
+                            <i data-lucide="folder-git-2" class="project-icon"></i>
+                            <a href="https://github.com/AditiUdaya/DRS-SYNC" target="_blank" class="external-link"><i
+                                    data-lucide="external-link"></i></a>
+                        </div>
+                        <h3>DRS-SYNC</h3>
+                        <p>High-performance, fault-tolerant data sync system using custom UDP, checkpointing, and
+                            priority scheduling. Achieved reliable, low-latency data replication with cryptographic
+                            integrity checks.</p>
+                        <div class="project-tags">
+                            <span>C++</span><span>UDP</span><span>Data Replication</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card fade-in-section">
+                    <div class="project-content">
+                        <div class="project-top">
+                            <i data-lucide="folder-git-2" class="project-icon"></i>
+                            <a href="https://github.com/SharmisthaAlike/Secure-Blockchain-Based-Multi-User-Messaging-System"
+                                target="_blank" class="external-link"><i data-lucide="external-link"></i></a>
+                        </div>
+                        <h3>Secure Messaging System</h3>
+                        <p>A secure multi-user chat application featuring real-time messaging, file sharing, and message
+                            history. Built with Python and utilizes SSL/TLS encryption for secure communication between
+                            clients and servers.</p>
+                        <div class="project-tags">
+                            <span>Python</span><span>SSL/TLS</span><span>Encryption</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card fade-in-section">
+                    <div class="project-content">
+                        <div class="project-top">
+                            <i data-lucide="folder-git-2" class="project-icon"></i>
+                            <a href="https://github.com/SharmisthaAlike/Air-Traffic-Control-system" target="_blank"
+                                class="external-link"><i data-lucide="external-link"></i></a>
+                        </div>
+                        <h3>Air Traffic Control System</h3>
+                        <p>Full-stack Air Traffic Control Management System built using Spring Boot (MVC architecture)
+                            to simulate flight planning, runway allocation, and airspace monitoring for pilots and
+                            controllers.</p>
+                        <div class="project-tags">
+                            <span>Java</span><span>Spring Boot</span><span>MVC</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card fade-in-section">
+                    <div class="project-content">
+                        <div class="project-top">
+                            <i data-lucide="folder-git-2" class="project-icon"></i>
+                            <a href="https://github.com/SharmisthaAlike/procurement-management-system" target="_blank"
+                                class="external-link"><i data-lucide="external-link"></i></a>
+                        </div>
+                        <h3>Procurement Reliability System</h3>
+                        <p>A full-stack, ML-integrated supply chain intelligence dashboard built to combat procurement
+                            reliability issues. Reduces supply chain disruptions, costs, and delayed deliveries via
+                            actionable analytics.</p>
+                        <div class="project-tags">
+                            <span>React</span><span>Flask</span><span>scikit-learn</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card fade-in-section">
+                    <div class="project-content">
+                        <div class="project-top">
+                            <i data-lucide="folder-git-2" class="project-icon"></i>
+                            <a href="https://github.com/SharmisthaAlike/Personal-finance-tracker" target="_blank"
+                                class="external-link"><i data-lucide="external-link"></i></a>
+                        </div>
+                        <h3>Personal Finance Tracker</h3>
+                        <p>Web-based application that tracks personal expenses and analyzes spending patterns. Features
+                            manual/bulk entry, category-wise analysis, budget tracking, and automated behavioral
+                            insights.</p>
+                        <div class="project-tags">
+                            <span>Web App</span><span>Analytics</span><span>Data Visualization</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <div class="container footer-content fade-in-section">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <span class="section-kicker">04 // Contact</span>
+                    <h2>Let's Connect!</h2>
+                    <p>I'm currently looking for new opportunities. Whether you have a question or just want to say hi,
+                        I'll try my best to get back to you!</p>
+                </div>
+                <div class="footer-links">
+                    <a href="mailto:alikesharmistha@gmail.com" class="footer-link">
+                        <i data-lucide="mail"></i>
+                        <span>alikesharmistha@gmail.com</span>
+                    </a>
+                    <a href="https://github.com/SharmisthaAlike" target="_blank" class="footer-link">
+                        <i data-lucide="github"></i>
+                        <span>github.com/SharmisthaAlike</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/sharmistha-alike-54380b234" target="_blank"
+                        class="footer-link">
+                        <i data-lucide="linkedin"></i>
+                        <span>linkedin.com/in/sharmistha-alike</span>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2026 Sharmistha Alike. Designed & Built with passion.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
